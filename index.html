@@ -17,6 +17,7 @@
     --rose:#c9527e;
     --paper:#fffaf3;
   }
+  <div class="credit">coded by Naveen Khatri 🤍</div>
   *{box-sizing:border-box; margin:0; padding:0;}
   html,body{height:100%;}
   body{
@@ -89,6 +90,19 @@
     animation:sceneIn 0.7s cubic-bezier(.2,.9,.3,1.15) forwards;
   }
   @keyframes sceneIn{ to{ opacity:1; transform:scale(1) translateX(0) translateY(0);} }
+  .credit {
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  font-size: 15px;
+  color: rgba(92, 39, 64, 0.45);
+  z-index: 100;
+  pointer-events: none;
+  letter-spacing: 0.04em;
+  }
 
   /* ========== MORE TRANSPARENT LIQUID GLASS ========== */
   .frame{
